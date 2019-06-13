@@ -56,7 +56,7 @@ contract("VariableCosts", accounts => {
     await instance.otherContractMethod();
   });
 
-  it("prints a table at end of test suites with failures", async () => {
+  it.skip("prints a table at end of test suites with failures", async () => {
     assert(false);
   });
 
