@@ -1,0 +1,37 @@
+{
+  "name": "gas-check",
+  "version": "0.2.0",
+  "description": "Testing codechecks / eth-gas-reporter integration",
+  "main": "index.js",
+  "scripts": {
+    "geth": "./scripts/geth.sh",
+    "test": "./scripts/test.sh",
+    "ci": "./scripts/ci.sh"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgewecke/gas-check.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "solidity",
+    "unit-testing",
+    "truffle",
+    "gas"
+  ],
+  "author": "cgewecke <github.com/cgewecke>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "ganache-cli": "6.4.3",
+    "husky": "^2.3.0",
+    "prettier": "1.17.1",
+    "pretty-quick": "^1.11.0",
+    "truffle": "5.0.12"
+  }
+}
