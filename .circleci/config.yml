@@ -5,6 +5,7 @@ jobs:
       - image: circleci/node:10.12-stretch
     steps:
       - checkout
+      - run: npm install
       - run: npm test
 workflows:
   version: 2
