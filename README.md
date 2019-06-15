@@ -14,7 +14,7 @@ npm install
 ### Test
 
 ```
-truffle test
+npm test
 ```
 
 ### Quick PR
