@@ -24,6 +24,6 @@ Some of the unit tests randomize gas consumption.
 ```
 git checkout -b <random-branch>
 date > change.txt
-git commit -a -m 'PR test'
-git push
+git commit -a -m 'test'
+git push --set-upstream origin <random-branch>
 ```
