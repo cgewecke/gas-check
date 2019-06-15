@@ -1,3 +1,5 @@
+const random = require("./random");
+
 const VariableCosts = artifacts.require("./VariableCosts.sol");
 const Wallet = artifacts.require("./Wallet.sol");
 
@@ -40,6 +42,10 @@ contract("VariableCosts", accounts => {
   it("should add five and delete one", async () => {
     await instance.addToMap(five);
     await instance.removeFromMap(one);
+  });
+
+  it("should set a random length string", async () => {
+    await instance.setString(random());
   });
 
   it("methods that do not throw", async () => {
