@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run: npm install
       - run: npm test
-      - run: ./node_modules/.bin/codechecks
+      - run: npx codechecks
 workflows:
   version: 2
   test:
