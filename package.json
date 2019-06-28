@@ -26,9 +26,7 @@
   ],
   "author": "cgewecke <github.com/cgewecke>",
   "license": "MIT",
-  "dependencies": {
-    "request": "^2.88.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@codechecks/client": "^0.1.0",
     "eth-gas-reporter": "git+https://github.com/cgewecke/eth-gas-reporter.git#next",
