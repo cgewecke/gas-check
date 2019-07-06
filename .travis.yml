@@ -9,3 +9,4 @@ install:
 script:
   - env
   - npm test
+  - npx cgewecke-cc-testing

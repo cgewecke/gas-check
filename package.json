@@ -30,7 +30,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "@codechecks/client": "^0.1.0",
+    "cgewecke-cc-testing": "0.0.1",
     "eth-gas-reporter": "^0.2.3",
     "ganache-cli": "6.4.3",
     "husky": "^2.3.0",
