@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run: yarn install
       - run: yarn test
-      - run: yarn codechecks
+      - run: yarn cgewecke-cc-testing
 workflows:
   version: 2
   test:
