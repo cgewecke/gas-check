@@ -11,12 +11,13 @@ addons:
     packages:
       - libstdc++-4.9-dev
 install:
-  - npm install
+  install:
+    - git clone https://github.com/$TRAVIS_REPO_SLUG.git $TRAVIS_REPO_SLUG
+    - cd $TRAVIS_REPO_SLUG
+    - git checkout -qf $TRAVIS_COMMIT
+    - npm install
 script:
   - env
-  - git branch -a
-  - git fetch --all
-  - git pull --all
   - git branch -a
   - npm test
   - npx codechecks
