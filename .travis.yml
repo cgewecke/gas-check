@@ -14,5 +14,6 @@ install:
   - npm install
 script:
   - env
+  - git branch -a
   - npm test
   - npx codechecks
