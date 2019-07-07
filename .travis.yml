@@ -16,7 +16,7 @@ script:
   - env
   - git branch -a
   - git fetch --all
-  - git pull -all
+  - git pull --all
   - git branch -a
   - npm test
   - npx codechecks
