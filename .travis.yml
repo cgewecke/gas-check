@@ -15,5 +15,7 @@ install:
 script:
   - env
   - git branch -a
+  - git fetch --all
+  - git branch -a
   - npm test
   - npx codechecks
