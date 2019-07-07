@@ -30,7 +30,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "cgewecke-cc-testing": "^0.0.2",
+    "cgewecke-cc-testing": "^0.0.5",
     "eth-gas-reporter": "git+https://github.com/cgewecke/eth-gas-reporter.git#travis-test",
     "ganache-cli": "6.4.3",
     "husky": "^2.3.0",
