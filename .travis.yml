@@ -1,0 +1,18 @@
+dist: trusty
+sudo: required
+group: beta
+language: node_js
+node_js:
+  - "10"
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - libstdc++-4.9-dev
+install:
+  - npm install
+script:
+  - env
+  - npm test
+  - npx codechecks

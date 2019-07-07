@@ -30,8 +30,8 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "@codechecks/client": "^0.1.0",
-    "eth-gas-reporter": "git+https://github.com/cgewecke/eth-gas-reporter.git#codechecks",
+    "cgewecke-cc-testing": "^0.0.2",
+    "eth-gas-reporter": "git+https://github.com/cgewecke/eth-gas-reporter.git#travis-test",
     "ganache-cli": "6.4.3",
     "husky": "^2.3.0",
     "prettier": "1.17.1",
