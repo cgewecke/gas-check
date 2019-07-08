@@ -19,5 +19,6 @@ script:
   - env
   - git branch -a
   - npm test
-  - echo `git rev-parse origin/master`
-  - npx codechecks
+  - echo "HEAD " && echo `git rev-parse HEAD`
+  - echo "MASTER " && git fetch origin master && echo `git rev-parse FETCH_HEAD`
+  # - npx codechecks
