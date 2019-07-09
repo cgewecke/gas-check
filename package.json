@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@codechecks/client": "0.1.3-beta.0",
-    "eth-gas-reporter": "git+https://github.com/cgewecke/eth-gas-reporter.git#travis-test",
+    "eth-gas-reporter": "0.2.4",
     "ganache-cli": "6.4.3",
     "husky": "^2.3.0",
     "prettier": "1.17.1",
