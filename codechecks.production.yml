@@ -1,0 +1,7 @@
+checks:
+  - name: eth-gas-reporter/codechecks
+  options:
+    name: production
+branches:
+  - develop
+  - master
