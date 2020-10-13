@@ -1,7 +1,7 @@
 checks:
   - name: eth-gas-reporter/codechecks
-  options:
-    name: testing
+    options:
+      name: testing
 branches:
   - develop
   - master
