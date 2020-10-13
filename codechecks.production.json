@@ -1,0 +1,15 @@
+{
+  "checks": [
+    {
+      "name": "eth-gas-reporter/codechecks",
+      "options": {
+        "name": "production"
+      }
+    }
+  ],
+  "settings": {
+    "branches": [
+      "develop"
+    ]
+  }
+}
