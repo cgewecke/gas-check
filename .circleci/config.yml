@@ -15,7 +15,7 @@ jobs:
       - checkout
       - run: npm install
       - run: npm test
-      - run: npx codechecks codechecks.production.yml
+      - run: npx codechecks codechecks.production.json
 workflows:
   version: 2
   test:

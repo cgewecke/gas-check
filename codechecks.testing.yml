@@ -3,5 +3,5 @@ checks:
     options:
       name: testing
 settings:
-  branches:
+  - branches:
     - develop
