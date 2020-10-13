@@ -9,7 +9,7 @@ module.exports = {
   mocha: {
     reporter: "eth-gas-reporter",
     reporterOptions: {
-      codechecks: true
+      maxMethodDiff: 0,
     }
   }
 };
