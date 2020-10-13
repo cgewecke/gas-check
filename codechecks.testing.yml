@@ -4,4 +4,3 @@ checks:
       name: testing
 branches:
   - develop
-  - master

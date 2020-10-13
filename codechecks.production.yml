@@ -4,4 +4,3 @@ checks:
       name: production
 branches:
   - develop
-  - master
